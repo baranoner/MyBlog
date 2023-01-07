@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+
+.topnav {
+    background-color: #222831;
+    overflow: hidden;
+    
+    
+  }
+  
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 120px;
+    font-family: 'Chivo Mono', monospace;
+
+    
+  }
+  
+  
+  .rest:hover {
+    
+    text-decoration: underline;
+    text-decoration-color: antiquewhite ;
+    text-decoration-thickness: 2px ;
+  }
+  
+  
+  
+  .topnav a.split {
+    float: left;
+    margin-left: 120px;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    
+  }
+
+  span{
+    color: #0092ca; 
+  }
+ .box1{
+
+    border: solid 2px black;
+ }
+ table  {
+  border:2px solid #393e46; 
+  position: absolute;
+  left: 32%;
+  top: 25%;
+  padding: 50px;
+  box-shadow: 5px 5px #393e46; ;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+
+}
+ h1{
+  display:inline-block;
+  position:absolute;
+  top: 15%;
+  left: 42%;
+  font-family: 'Comfortaa', cursive;
+  text-decoration: underline;
+  
+ }
+ .button {
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  font-family: 'Chivo Mono', monospace;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#edit{
+  background-color: orange;
+}
+#delete{
+  background-color: red;
+}
+#cpost{
+  background-color: #0092ca;
+  position: absolute;
+  left: 70%;
+  top: 15%;
+}
