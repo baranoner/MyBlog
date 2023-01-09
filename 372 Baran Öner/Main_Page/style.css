@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap'); 
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+    
+}
+::selection{
+    color: var(--bg-color);
+    background: var(--second-color);
+}
+
+:root{
+    --container-color : #222831;
+    --second-color:#0092ca;
+    --text-color: #172317;
+    --bg-color: #eeeeee;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+section{
+    padding: 3rem 0 2rem;
+}
+
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+}
+.topnav {
+    background-color: #222831;
+    overflow: hidden;
+  }
+  
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 120px;
+    font-family: 'Chivo Mono', monospace;
+  }
+.rest:hover {
+    text-decoration: underline;
+    text-decoration-color: antiquewhite ;
+    text-decoration-thickness: 2px ;
+  }
+
+.topnav a.split {
+    float: left;
+    margin-left: 120px;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    
+  }
+.home{
+    width: 100%;
+    min-height: 440px;
+    background: var(--container-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.home-text{
+    color:var(--bg-color);
+    text-align: center;
+}
+.home-title{
+    font-size: 3.5rem;
+}
+.home-subtitle{
+     font-size: 2rem;
+     font-weight: 400;
+}
+.box{
+    background-color: white;
+    height: 50%;
+    width: 600px;
+    border: 2px solid #393e46; 
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 5px 5px #393e46; ;
+    font-size: 20px;
+
+
+      }
+      p{
+          font-family:monospace;
+      }
+      span{
+        color: #0092ca; 
+      }
+      .post{
+        color: #172317;
+      }
+
+      .box-container {
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+        align-items:center
+      }
+
+
+      .box p {
+        word-wrap: break-word;
+        max-width: 50ch;
+      }
